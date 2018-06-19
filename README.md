@@ -1,2 +1,0 @@
-# worldlightyjx.github.io
-MyBlog
