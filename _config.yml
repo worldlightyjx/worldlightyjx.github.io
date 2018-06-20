@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Yang's Blog
 subtitle:
-description:
+description: Yang的写字空间
 keywords:
-author: John Doe
-language:
-timezone:
+author: Jason Yang
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
