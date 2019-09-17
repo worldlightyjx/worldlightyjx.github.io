@@ -4,6 +4,8 @@ date: 2019-04-09
 categories: Java集合
 tags: [Java集合]
 ---
+<meta name="referrer" content="no-referrer" />
+
 ## 关于HashMap中hash()函数的思考
 
 ### JDK7中hash函数的实现
