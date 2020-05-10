@@ -1,0 +1,8 @@
+{
+  "ignore": {
+    "hexo": {
+      "versions": "4.2.0",
+      "reason": "no"
+    }
+  }
+}

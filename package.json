@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "hexo": "^3.9.0",
-    "hexo-deployer-git": "^2.0.0",
+    "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
@@ -16,6 +16,6 @@
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
-    "npm-upgrade": "^2.0.2"
+    "npm-upgrade": "^2.0.3"
   }
 }
