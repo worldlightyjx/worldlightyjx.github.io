@@ -16,7 +16,11 @@
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
+<<<<<<< HEAD
     "npm-upgrade": "^0.3.0",
+=======
+    "npm-upgrade": "^3.1.0",
+>>>>>>> 57dc55e8205d0c7977400e749ae6a7d13e1134ed
     "prismjs": "^1.28.0"
   }
 }
