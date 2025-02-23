@@ -82,7 +82,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-主页"><a href="/" rel="section"><i class="home fa-fw"></i>主页</a></li><li class="menu-item menu-item-关于"><a href="/about/" rel="section"><i class="user fa-fw"></i>关于</a></li><li class="menu-item menu-item-标签"><a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-类别"><a href="/categories/" rel="section"><i class="th fa-fw"></i>类别</a></li><li class="menu-item menu-item-归档"><a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-主页"><a href="/" rel="section"><i class="home fa-fw"></i>主页</a></li><li class="menu-item menu-item-关于"><a href="/about/" rel="section"><i class="user fa-fw"></i>关于</a></li><li class="menu-item menu-item-标签"><a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-类别"><a href="/categories/" rel="section"><i class="th fa-fw"></i>类别</a></li><li class="menu-item menu-item-归档"><a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档</a></li><li class="menu-item menu-item-switch_lang"><a href="/en" rel="section"><i class="language fa-fw"></i>English</a></li>
   </ul>
 </nav>
 
@@ -180,6 +180,7 @@
     <div class="main-inner index posts-expand">
 
     
+    
 
 
 <div class="post-block">
@@ -223,7 +224,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-02-23 21:58:07" itemprop="dateModified" datetime="2025-02-23T21:58:07+08:00">2025-02-23</time>
+      <time title="Modified: 2025-02-23 22:07:54" itemprop="dateModified" datetime="2025-02-23T22:07:54+08:00">2025-02-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -264,114 +265,7 @@
 
 
     
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/02/%E5%85%A8%E6%8E%92%E5%88%97%E7%9A%84%E5%87%A0%E7%A7%8D%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jason Yang">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Yang's Blog">
-      <meta itemprop="description" content="Yang的写字空间">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Yang's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2019/04/02/%E5%85%A8%E6%8E%92%E5%88%97%E7%9A%84%E5%87%A0%E7%A7%8D%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F/" class="post-title-link" itemprop="url">全排列的几种实现方式</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2019-04-02 00:00:00" itemprop="dateCreated datePublished" datetime="2019-04-02T00:00:00+08:00">2019-04-02</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-02-23 21:51:44" itemprop="dateModified" datetime="2025-02-23T21:51:44+08:00">2025-02-23</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" itemprop="url" rel="index"><span itemprop="name">算法与数据结构</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h3 id="元素不重复"><a href="#元素不重复" class="headerlink" title="元素不重复"></a>元素不重复</h3><p>例如：[1,2,3] -&gt; [[123],[132],[213],[231],[321],[312]]</p>
-<ul>
-<li>每一位实验，如果之前没有用过就加入，时间复杂度为O(n! * n)</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> List&lt;List&lt;Integer&gt;&gt; <span class="title function_">permute</span><span class="params">(<span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">      List&lt;List&lt;Integer&gt;&gt; res = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">      <span class="keyword">if</span>(nums==<span class="literal">null</span>||nums.length==<span class="number">0</span>) <span class="keyword">return</span> res;</span><br><span class="line">      helper(res,<span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;(),nums);</span><br><span class="line">      <span class="keyword">return</span> res;</span><br><span class="line">  &#125;</span><br><span class="line"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">helper</span><span class="params">(List&lt;List&lt;Integer&gt;&gt; res, List&lt;Integer&gt; list, <span class="type">int</span>[] nums)</span>&#123;</span><br><span class="line">      <span class="keyword">if</span>(list.size() == nums.length) &#123;</span><br><span class="line">          res.add(<span class="keyword">new</span> <span class="title class_">ArrayList</span>(list));</span><br><span class="line">          <span class="keyword">return</span>;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i&lt;nums.length; i++)&#123;</span><br><span class="line">          <span class="keyword">if</span>(list.contains(nums[i])) <span class="keyword">continue</span>;</span><br><span class="line">          list.add(nums[i]);</span><br><span class="line">          helper(res,list,nums);</span><br><span class="line">          list.remove(list.size() - <span class="number">1</span>);</span><br><span class="line">      &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>利用元素之间交换的思想(就不需要查重了)</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> List&lt;List&lt;Integer&gt;&gt; <span class="title function_">permute</span><span class="params">(<span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">       List&lt;List&lt;Integer&gt;&gt; res = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">       <span class="keyword">if</span> (nums == <span class="literal">null</span> || nums.length == <span class="number">0</span>) &#123;</span><br><span class="line">           <span class="keyword">return</span> res;</span><br><span class="line">       &#125;</span><br><span class="line">       permuteHelper(res, <span class="number">0</span>, nums);</span><br><span class="line">       <span class="keyword">return</span> res;</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">permuteHelper</span><span class="params">(List&lt;List&lt;Integer&gt;&gt; res, <span class="type">int</span> start, <span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">       <span class="keyword">if</span> (start == nums.length) &#123;</span><br><span class="line">           List&lt;Integer&gt; list = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">           <span class="keyword">for</span> (<span class="type">int</span> num : nums) &#123;</span><br><span class="line">               list.add(num);</span><br><span class="line">           &#125;</span><br><span class="line">           res.add(<span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;(list));</span><br><span class="line">           <span class="keyword">return</span>;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> start; i &lt; nums.length; i++) &#123;</span><br><span class="line">           swap(nums, start, i);</span><br><span class="line">           permuteHelper(res, start + <span class="number">1</span>, nums);</span><br><span class="line">           swap(nums, start, i);</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   </span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">swap</span><span class="params">(<span class="type">int</span>[] nums, <span class="type">int</span> l, <span class="type">int</span> r)</span> &#123;</span><br><span class="line">       <span class="type">int</span> <span class="variable">tmp</span> <span class="operator">=</span> nums[l];</span><br><span class="line">       nums[l] = nums[r];</span><br><span class="line">       nums[r] = tmp;</span><br><span class="line">   </span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="元素有重复"><a href="#元素有重复" class="headerlink" title="元素有重复"></a>元素有重复</h3><p>例如：[1,1,2] -&gt; [[112],[121],[211]]:</p>
-<ul>
-<li>借助used数组去重</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> ArrayList&lt;ArrayList&lt;Integer&gt;&gt; <span class="title function_">permuteUnique</span><span class="params">(<span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">       ArrayList&lt;ArrayList&lt;Integer&gt;&gt; res = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">       <span class="keyword">if</span>(nums==<span class="literal">null</span>||nums.length==<span class="number">0</span>)</span><br><span class="line">           <span class="keyword">return</span> res;</span><br><span class="line">       Arrays.sort(nums);</span><br><span class="line">       helper1(res,nums,<span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;Integer&gt;(),<span class="keyword">new</span> <span class="title class_">boolean</span>[nums.length]);</span><br><span class="line">       <span class="keyword">return</span> res;</span><br><span class="line"></span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">helper1</span><span class="params">(ArrayList&lt;ArrayList&lt;Integer&gt;&gt; res, <span class="type">int</span>[] nums, ArrayList&lt;Integer&gt; list,<span class="type">boolean</span>[] used)</span>&#123;</span><br><span class="line">       <span class="keyword">if</span>(list.size() == nums.length)&#123;</span><br><span class="line">           res.add(<span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;(list));</span><br><span class="line">           <span class="keyword">return</span>;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt;nums.length ; i++) &#123;</span><br><span class="line">           <span class="keyword">if</span>(used[i] || i &gt; <span class="number">0</span> &amp;&amp; nums[i] == nums[i - <span class="number">1</span>] &amp;&amp; !used[i - <span class="number">1</span>]) <span class="keyword">continue</span>;</span><br><span class="line">           list.add(nums[i]);</span><br><span class="line">           used[i] = <span class="literal">true</span>;</span><br><span class="line">           helper1(res,nums,list,used);</span><br><span class="line">           used[i] = <span class="literal">false</span>;</span><br><span class="line">           list.remove(list.size() - <span class="number">1</span>);</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-
-
-<ul>
-<li>使用交换方式</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> ArrayList&lt;ArrayList&lt;Integer&gt;&gt; <span class="title function_">permuteUnique2</span><span class="params">(<span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">       ArrayList&lt;ArrayList&lt;Integer&gt;&gt; res = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">       <span class="keyword">if</span>(nums==<span class="literal">null</span>||nums.length==<span class="number">0</span>)</span><br><span class="line">           <span class="keyword">return</span> res;</span><br><span class="line">       helper2(res,nums,<span class="number">0</span>);</span><br><span class="line">       <span class="keyword">return</span> res;</span><br><span class="line"></span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">helper2</span><span class="params">(ArrayList&lt;ArrayList&lt;Integer&gt;&gt; res, <span class="type">int</span>[] nums, <span class="type">int</span> start)</span>&#123;</span><br><span class="line">       <span class="keyword">if</span>(start==nums.length)&#123;</span><br><span class="line">           ArrayList&lt;Integer&gt; list = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">           <span class="keyword">for</span>(<span class="type">int</span> num : nums)&#123;</span><br><span class="line">               list.add(num);</span><br><span class="line">           &#125;</span><br><span class="line">           <span class="keyword">if</span>(!res.contains(list))&#123;</span><br><span class="line">               res.add(<span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;(list));</span><br><span class="line">           &#125;</span><br><span class="line">           <span class="keyword">return</span>;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> start; i &lt;nums.length ; i++) &#123;</span><br><span class="line">           swap(nums,start,i);</span><br><span class="line">           helper2(res,nums,start + <span class="number">1</span>);</span><br><span class="line">           swap(nums,start,i);</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">swap</span><span class="params">(<span class="type">int</span>[] nums, <span class="type">int</span> l, <span class="type">int</span> r)</span> &#123;</span><br><span class="line">       <span class="type">int</span> <span class="variable">tmp</span> <span class="operator">=</span> nums[l];</span><br><span class="line">       nums[l] = nums[r];</span><br><span class="line">       nums[r] = tmp;</span><br><span class="line"></span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
 
 </div>
   </main>
