@@ -8,7 +8,12 @@ subtitle:
 description: Yang的写字空间
 keywords:
 author: Jason Yang
-language: zh-CN
+language:
+  - zh-CN
+  - en
+i18n:
+  type: [page, post]
+  generator: [index, archive, category, tag]
 timezone: Asia/Shanghai
 
 # URL
@@ -52,6 +57,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
+  single-language-index: false
   
 # Category & Tag
 default_category: uncategorized

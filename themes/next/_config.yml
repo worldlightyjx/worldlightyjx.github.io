@@ -100,6 +100,7 @@ menu:
   标签: /tags/ || tags
   类别: /categories/ || th
   归档: /archives/ || archive
+  language: / || fas fa-language
   #home: / || fa fa-home
   #about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags

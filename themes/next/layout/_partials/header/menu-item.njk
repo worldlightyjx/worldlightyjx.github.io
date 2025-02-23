@@ -1,6 +1,9 @@
+
 {% macro render(node) %}
 
   {%- set itemURL = node.path %}
+ 
+    
   <li class="menu-item menu-item-{{ node.name | lower | replace(' ', '-') }}">
 
     {%- set menuIcon = '<i class="' + node.icon + ' fa-fw"></i>' if theme.menu_settings.icons and node.icon else '' %}
@@ -21,8 +24,29 @@
       {%- endfor %}
     {%- endif %}
 
+{%- if name=='language'%}
+  {%- if page.lang=='en'%}
+    {%- set itemURL= '/' %}
+    {%- set menuText= '简体中文' %}
+  {%- endif%}
+  {%- if page.lang=='zh-CN'%}
+    {%- set itemURL='/en' %}
+    {%- set menuText= 'English' %}
+  {%- endif%}
+
+{% elif page.lang !=='zh-CN' %}
+     {%- set itemURL= page.lang + itemURL%}
+{%- endif%}
+
+    
+   
+
     {{- next_url(itemURL, menuIcon + menuText + menuBadge, {rel: 'section'}) -}}
 
   </li>
 
+  
 {% endmacro %}
+
+
+
