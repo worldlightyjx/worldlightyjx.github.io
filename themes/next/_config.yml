@@ -100,7 +100,10 @@ menu:
   标签: /tags/ || tags
   类别: /categories/ || th
   归档: /archives/ || archive
-  language: / || fas fa-language
+  language:
+  - 中文
+  - EN
+  # / || fas fa-language
   #home: / || fa fa-home
   #about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
@@ -209,7 +212,7 @@ toc:
 # ---------------------------------------------------------------
 
 # Show multilingual switcher in footer.
-language_switcher: false
+language_switcher: true
 
 footer:
   # Specify the year when the site was setup. If not defined, current year will be used.
