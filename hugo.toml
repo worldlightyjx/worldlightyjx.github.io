@@ -40,14 +40,24 @@ defaultContentLanguageInSubdir = false
   weight = 10
 
 [[languages.zh.menus.main]]
+  name = '文章'
+  pageRef = '/posts'
+  weight = 20
+
+[[languages.zh.menus.main]]
+  name = '标签'
+  pageRef = '/tags'
+  weight = 30
+
+[[languages.zh.menus.main]]
   name = '关于'
   pageRef = '/about'
-  weight = 20
+  weight = 50
 
 [[languages.zh.menus.main]]
   name = '归档'
   pageRef = '/archives'
-  weight = 30
+  weight = 40
 
 [languages.en]
   contentDir = 'content/en'
@@ -70,11 +80,21 @@ defaultContentLanguageInSubdir = false
   weight = 10
 
 [[languages.en.menus.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 20
+
+[[languages.en.menus.main]]
+  name = 'Tags'
+  pageRef = '/tags'
+  weight = 30
+
+[[languages.en.menus.main]]
   name = 'About'
   pageRef = '/about'
-  weight = 20
+  weight = 50
 
 [[languages.en.menus.main]]
   name = 'Archives'
   pageRef = '/archives'
-  weight = 30
+  weight = 40
