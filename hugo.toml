@@ -1,0 +1,32 @@
+baseURL = 'https://worldlightyjx.github.io/'
+theme = 'PaperMod'
+defaultContentLanguage = 'zh'
+defaultContentLanguageInSubdir = false
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[params]
+  displayFullLangName = true
+
+[languages.zh]
+  contentDir = 'content/zh'
+  label = '中文'
+  locale = 'zh-CN'
+  title = 'Yang的思想空间'
+  weight = 1
+  hasCJKLanguage = true
+
+[languages.zh.params.homeInfoParams]
+  Title = 'Yang的思想空间'
+
+[languages.en]
+  contentDir = 'content/en'
+  label = 'English'
+  locale = 'en-US'
+  title = "Yang's Mind Space"
+  weight = 2
+
+[languages.en.params.homeInfoParams]
+  Title = "Yang's Mind Space"
