@@ -9,6 +9,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   displayFullLangName = true
+  mainSections = ['posts']
 
 [languages.zh]
   contentDir = 'content/zh'
@@ -18,8 +19,28 @@ defaultContentLanguageInSubdir = false
   weight = 1
   hasCJKLanguage = true
 
-[languages.zh.params.homeInfoParams]
-  Title = 'Yang的思想空间'
+[[languages.zh.params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/worldlightyjx'
+
+[[languages.zh.params.socialIcons]]
+  name = 'linkedin'
+  url = 'https://www.linkedin.com/in/jiaxin-yang-82776b91'
+
+[[languages.zh.menus.main]]
+  name = '首页'
+  pageRef = '/'
+  weight = 10
+
+[[languages.zh.menus.main]]
+  name = '关于'
+  pageRef = '/about'
+  weight = 20
+
+[[languages.zh.menus.main]]
+  name = '归档'
+  pageRef = '/archives'
+  weight = 30
 
 [languages.en]
   contentDir = 'content/en'
@@ -28,5 +49,25 @@ defaultContentLanguageInSubdir = false
   title = "Yang's Mind Space"
   weight = 2
 
-[languages.en.params.homeInfoParams]
-  Title = "Yang's Mind Space"
+[[languages.en.params.socialIcons]]
+  name = 'github'
+  url = 'https://github.com/worldlightyjx'
+
+[[languages.en.params.socialIcons]]
+  name = 'linkedin'
+  url = 'https://www.linkedin.com/in/jiaxin-yang-82776b91'
+
+[[languages.en.menus.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[languages.en.menus.main]]
+  name = 'About'
+  pageRef = '/about'
+  weight = 20
+
+[[languages.en.menus.main]]
+  name = 'Archives'
+  pageRef = '/archives'
+  weight = 30
