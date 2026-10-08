@@ -11,6 +11,13 @@ defaultContentLanguageInSubdir = false
   displayFullLangName = true
   mainSections = ['posts']
 
+  [params.profileMode]
+    enabled = true
+    imageUrl = '/images/avatar.jpg'
+    imageTitle = 'Yang'
+    imageWidth = 180
+    imageHeight = 180
+
 [languages.zh]
   contentDir = 'content/zh'
   label = '中文'
