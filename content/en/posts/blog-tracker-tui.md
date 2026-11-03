@@ -1,8 +1,8 @@
 +++
-title = 'I Built a Blog Tracking TUI with Codex in One Lunch Break'
+title = 'I Built a Blog Tracking Tool with Codex in One Lunch Break'
 date = 2026-11-03
 draft = false
-description = 'Why I built Blog Tracker TUI, how it works, and how to install, use, and configure it.'
+description = 'Why I built Blog Tracker Tool, how it works, and how to install, use, and configure it.'
 tags = ['Codex', 'Rust', 'TUI', 'Blogging']
 +++
 
