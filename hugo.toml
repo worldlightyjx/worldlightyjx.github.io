@@ -10,6 +10,7 @@ defaultContentLanguageInSubdir = false
 [params]
   displayFullLangName = true
   mainSections = ['posts']
+  math = true
 
   [params.profileMode]
     enabled = true
@@ -17,6 +18,12 @@ defaultContentLanguageInSubdir = false
     imageTitle = 'Yang'
     imageWidth = 180
     imageHeight = 180
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [['\[', '\]'], ['$$', '$$']]
+    inline = [['\(', '\)'], ['$', '$']]
 
 [languages.zh]
   contentDir = 'content/zh'

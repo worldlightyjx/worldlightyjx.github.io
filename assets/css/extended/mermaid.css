@@ -1,0 +1,7 @@
+.md-content pre.mermaid {
+    padding: 1rem;
+    overflow-x: auto;
+    background: #fff;
+    color: #333;
+    border-radius: var(--radius);
+}
