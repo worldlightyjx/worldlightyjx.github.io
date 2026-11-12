@@ -14,7 +14,15 @@ So I wanted a small tool that would remember blogs for me and show me when they 
 
 Blog Tracker TUI is a local terminal app for following blogs. Give it a homepage or feed URL and it tracks article links, shows unread counts, and remembers what you have opened. It supports RSS, Atom, and JSON Feed, and it can also find posts on public blog pages without a feed.
 
+![Blog Tracker TUI blog list showing unread counts for each blog](/images/blog-tracker-tui/blogs.png)
+
+*The blog list shows unread counts and the latest check status.*
+
 I wanted it to be a place to *discover* updates, not a full reading app. The terminal shows titles and links; pressing `Enter` on an article opens the original post in your default browser and marks it read if the browser opens successfully. Reading still happens on the author's site.
+
+![Blog Tracker TUI article list showing dates, titles, and read status](/images/blog-tracker-tui/articles.png)
+
+*Open a blog to browse article dates, titles, and read status.*
 
 ## How it works
 
@@ -41,11 +49,21 @@ cargo install --git https://github.com/worldlightyjx/blog-tracker-tui.git
 blog-tracker-tui
 ```
 
+![Launching Blog Tracker TUI with the blog-tracker-tui command in a terminal](/images/blog-tracker-tui/launch.png)
+
+*Run `blog-tracker-tui` in your terminal after installation.*
+
 If you have cloned the repository, run `cargo install --path .` from its directory instead. A config file is optional; the app uses defaults when none exists.
 
 ## Use it
 
-Press `a` to add a blog homepage or feed URL. Select a blog and press `Enter` to see its posts; press `Enter` again on a post to open it in your browser. My usual routine is `u` for the combined unread list and `r` when I want to check everything right away.
+Press `a` to add a blog homepage or feed URL.
+
+![Blog Tracker TUI add blog dialog for a homepage or feed URL](/images/blog-tracker-tui/add-blog.png)
+
+*Press `a` and paste a URL to start tracking a blog.*
+
+Select a blog and press `Enter` to see its posts; press `Enter` again on a post to open it in your browser. My usual routine is `u` for the combined unread list and `r` when I want to check everything right away.
 
 | Key | Action |
 | --- | --- |
