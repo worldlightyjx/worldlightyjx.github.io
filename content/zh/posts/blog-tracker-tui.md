@@ -14,13 +14,13 @@ tags = ['Codex', 'Rust', 'TUI', '博客']
 
 Blog Tracker TUI 是一个运行在终端里的本地博客追踪器。添加博客主页或 Feed 地址后，它会检查新文章，显示未读数量，并记住哪些文章已经看过。它支持 RSS、Atom、JSON Feed，也会尝试从没有 Feed 的公开网页里提取文章链接。
 
-![Blog Tracker TUI 的博客列表，显示各博客的未读数量](https://worldlightyjx.github.io/images/blog-tracker-tui/blogs.png)
+![Blog Tracker TUI 的博客列表，显示各博客的未读数量](https://worldlightyjx.github.io/images/blog-tracker-tui/blogs.webp)
 
 *博客列表会汇总未读数量，也能看到每个博客的检查状态。*
 
 我把它设计成“发现更新的入口”，没有在终端里重做一套阅读器。界面只保存和展示文章标题、链接等信息；选中文章按 `Enter`，系统默认浏览器会打开原文，成功打开后标为已读。这样读文章仍在作者的网站上，终端里只需负责追踪。
 
-![Blog Tracker TUI 的文章列表，显示日期、标题和已读状态](https://worldlightyjx.github.io/images/blog-tracker-tui/articles.png)
+![Blog Tracker TUI 的文章列表，显示日期、标题和已读状态](https://worldlightyjx.github.io/images/blog-tracker-tui/articles.webp)
 
 *进入博客后，可以浏览文章日期、标题与已读状态。*
 
@@ -51,7 +51,7 @@ cargo install --git https://github.com/worldlightyjx/blog-tracker-tui.git
 blog-tracker-tui
 ```
 
-![在终端输入 blog-tracker-tui 启动工具](https://worldlightyjx.github.io/images/blog-tracker-tui/launch.png)
+![在终端输入 blog-tracker-tui 启动工具](https://worldlightyjx.github.io/images/blog-tracker-tui/launch.webp)
 
 *安装后，在终端输入 `blog-tracker-tui` 启动。*
 
@@ -61,7 +61,7 @@ blog-tracker-tui
 
 进入界面后，按 `a`，粘贴博客主页或 Feed 地址并回车。
 
-![Blog Tracker TUI 的添加博客对话框，可粘贴博客主页或 Feed 地址](https://worldlightyjx.github.io/images/blog-tracker-tui/add-blog.png)
+![Blog Tracker TUI 的添加博客对话框，可粘贴博客主页或 Feed 地址](https://worldlightyjx.github.io/images/blog-tracker-tui/add-blog.webp)
 
 *按 `a` 打开添加窗口，输入地址即可开始追踪。*
 
